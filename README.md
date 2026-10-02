@@ -134,21 +134,23 @@ Jenkins performs:
 
 ## CI/CD Workflow
 
+```text
 Developer Push
-      ↓
+       ↓
 GitHub Repository
-      ↓
+       ↓
 GitHub Actions
-      ↓
-Lint (flake8)
-      ↓
+       ↓
+Build & Lint (flake8)
+       ↓
 Pytest Execution
-      ↓
+       ↓
 Docker Image Build
-      ↓
+       ↓
 Pytest Execution Inside Docker
-      ↓
+       ↓
 Jenkins Build Validation
+```
 
 ## API Endpoints
 
