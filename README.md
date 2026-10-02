@@ -145,3 +145,44 @@ Jenkins performs:
 | GET | /membership/<name> | Membership Status |
 | POST | /workouts | Add Workout |
 | GET | /workouts/<name> | Get Workout History |
+
+## Version Control Strategy
+
+The ACEest Fitness & Gym application was developed using an incremental versioning approach based on the supplied source code versions.
+
+### Legacy Version Evolution
+
+- ACEest v1.0
+- ACEest v1.1
+- ACEest v1.1.2
+- ACEest v2.0.1
+- ACEest v2.1.2
+- ACEest v2.2.1
+- ACEest v2.2.4
+- ACEest v3.0.1
+- ACEest v3.1.2
+- ACEest v3.2.4
+
+Each version was maintained in a dedicated Git branch to demonstrate version control practices and incremental software evolution.
+
+### Feature Branches
+
+The following feature branches were created to demonstrate a typical DevOps workflow:
+
+- feature-flask
+- feature-testing
+- feature-docker
+- feature-cicd
+- feature-jenkins
+
+### DevOps Implementation
+
+The final implementation includes:
+
+- Flask REST APIs
+- Pytest automated testing
+- Docker containerization
+- GitHub Actions CI pipeline
+- Jenkins build pipeline
+
+All feature branches were merged into the main branch to simulate an enterprise software delivery workflow.
