@@ -209,3 +209,16 @@ The final implementation includes:
 - Jenkins build pipeline
 
 All feature branches were merged into the main branch to simulate an enterprise software delivery workflow.
+
+## Assignment Report
+
+Report:
+documentation/2025TM93111_ITD_Assignment_1.pdf
+
+## Demonstration Video
+
+GitHub:
+documentation/2025TM93111_Assignment1_Video.mp4
+
+Google Drive:
+https://drive.google.com/file/d/1l4DHBIS_2Sm9bUAmZvb_it4-PuaAsBy-/view?usp=sharing
